@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+.navBarList {
+	list-style-type: none;
+}
+ul.navBarList li {
+	display: inline-block;
+}
+/* .navbar .nav-item:not(:last-child) {
+	margin-right: 35px;
+}
+.dropdown-toggle::after {
+	transition: transform 0.15s linear;
+}
+
+.show.dropdown .dropdown-toggle::after {
+	transform: translateY(3px);
+} */
+.barOptions {
+	font-size: 13px;
+	font-weight: 700;
+	padding-top: 50px;
+	margin-bottom: 50px;
+	font-family: 'Open Sans';
+}
+
+.aboveOptions {
+	color: black;
+	font-size: 17px;
+	font-weight: 300;
+	position: relative;
+	left: 430px;
+	top: 30px;
+}
+.container-fluid {
+	background-color: #ffffff !important;
+	height: 87px;
+}
+.select {
+	position: relative;
+	left: 170px;
+	bottom: 42px;
+	font-size: 12px;
+	font-family: 'Open Sans';
+}
+.navbar {
+	padding: 0px !important;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+.body {
+	background-image: url('./tree.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.card {
+	position: relative;
+	top: 154px;
+	left: 140px;
+	opacity: 0.5;
+}
+.card-title {
+	font-family: 'Open Sans';
+	padding-left: 80px;
+	margin-bottom: 50px;
+	color: rgb(51, 51, 51);
+	font-size: 30px;
+	/* background-color: 00ffffff; */
+}
+.input-icons i {
+	position: absolute;
+}
+
+.input-icons {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.icon {
+	padding: 10px;
+	min-width: 40px;
+}
+
+.input-field {
+	width: 100%;
+	padding: 5px;
+	text-align: center;
+	margin-top: 5px;
+	font-size: large;
+	text-decoration: none;
+}
+.via {
+	padding-left: 25px;
+	padding-top: 5px;
+	text-decoration: none;
+}
+.via:hover {
+	color: darkmagenta;
+}
+.button {
+	padding-left: 25px;
+	padding-top: 5px;
+	text-decoration: none;
+}
+.bookNow h1 {
+	font-size: 32px;
+	padding-left: 200px;
+	padding-top: 250px;
+	color: white;
+	font-weight: 800;
+}
+.bookNow p {
+	padding-left: 200px;
+	padding-bottom: 100px;
+	color: white;
+	font-weight: 700;
+}
+.bookNow button {
+	margin-top: 15px;
+	background-color: #367fa9;
+	font-weight: 500;
+}
+.item1 {
+	grid-area: left;
+}
+.item2 {
+	grid-area: right;
+}
+.grid-container {
+	display: grid;
+	grid-template-areas: 'left right';
+	/* gap: '20px'; */
+	padding: 10px;
+}
+.howToBook {
+	background-color: #1c70b1;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 80px;
+	padding-left: 500px;
+}
