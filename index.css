@@ -139,3 +139,9 @@ ul.navBarList li {
 	padding-bottom: 80px;
 	padding-left: 500px;
 }
+.abcd {
+	justify-content: center;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	background-color: #1c70b1;
+}
